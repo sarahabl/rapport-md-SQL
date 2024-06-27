@@ -30,8 +30,6 @@ Ce rapport de veille vise à synthétiser les points clés à retenir sur SQL po
 - **Langage SQL**: Permet de créer, lire, mettre à jour et supprimer des données dans les bases de données relationnelles.
 - **Tables**: Composées de lignes (enregistrements) et de colonnes (champs), représentant des données organisées.
 - **Requêtes SQL**: Instructions permettant d'interagir avec les bases de données, comme SELECT, INSERT, UPDATE et DELETE.
-- **Clés primaires**: Identifient de manière unique chaque enregistrement dans une table.
-- **Clés étrangères**: Relient des tables entre elles, assurant l'intégrité référentielle.
 
 ## Quand utilise-t-on SQL ?
 SQL est utilisé dans une large variété de cas d'utilisation, notamment :
