@@ -24,7 +24,7 @@ Ce rapport de veille vise à synthétiser les points clés à retenir sur SQL po
 Les transactions et l'intégrité des données sont des mécanismes essentiels pour maintenir la fiabilité, la cohérence et la robustesse des bases de données relationnelles. Ils permettent de s'assurer que toutes les opérations sont effectuées de manière sûre et que les données restent toujours précises et cohérentes.
 
 En résumé : 
-- **Les transactions** : Assurent que les séries d'opérations sont exécutées de manière atomique, cohérente, isolée et durable.
+- **Les transactions** : Assurent que les opérations complexes sont exécutées de manière atomique, maintenant ainsi l'intégrité des données. Les propriétés ACID (Atomicité, Cohérence, Isolation, Durabilité) sont essentielles pour les transactions.
 - **L'intégrité des Données** : Garantis que les données sont correctes et cohérentes, en respectant des règles spécifiques aux entités, aux relations entre entités et aux valeurs des colonnes. Par exemple en interdisant les entrées orphelines dans les tables enfants.
 
 ### Pourquoi utiliser une Base de Données Relationnelle ?
@@ -87,12 +87,26 @@ SQL est utilisé dans une large variété de cas d'utilisation, notamment :
 - **UPDATE**: Mettre à jour une donnée
 - **AGGREGATIONS**: Calculer des valeurs résumées (SUM, AVG, COUNT, MIN, MAX).
 
-### Techniques d'optimisation des requêtes SQL
-1. **Indexation**: Créer des index sur les colonnes fréquemment interrogées.
-2. **Utiliser des vues matérialisées**: Pré-calculer des requêtes complexes pour des performances accrues.
-3. **Analyser les requêtes**: Identifier les goulots d'étranglement et optimiser les requêtes en conséquence.
-4. **Choisir le bon type de jointure**: Sélectionner la jointure la plus adaptée à la requête.
+## Jointures (JOIN) et Agrégations
+### Jointures
+Les jointures permettent de combiner des données de plusieurs tables :
+- **INNER JOIN** : Retourne les lignes correspondantes dans les deux tables
+- **LEFT JOIN** : Retourne toutes les lignes de la table de gauche et les lignes correspondantes de la table de droite
+- **RIGHT JOIN** : Retourne toutes les lignes de la table de droite et les lignes correspondantes de la table de gauche
+- **FULL OUTER JOIN** : Retourne toutes les lignes des deux tables
 
+### Agrégations
+Les fonctions d'agrégation permettent de réaliser des calculs sur un ensemble de valeurs :
+- **COUNT()** : Compte le nombre de lignes
+- **SUM()** : Calcule la somme des valeurs
+- **AVG()** : Calcule la moyenne des valeurs
+- **MAX()** et **MIN()** : Trouvent les valeurs maximales et minimales
+
+### Techniques d'optimisation des requêtes SQL
+- **Utilisez des index** sur les colonnes fréquemment recherchées.
+- **Évitez SELECT *** : Spécifiez uniquement les colonnes nécessaires.
+- **Utilisez des jointures appropriées** et évitez les jointures inutiles.
+- **Analysez les plans d'exécution** pour identifier les goulots d'étranglement.
 
 ## Conclusion
 SQL est un outil essentiel pour les développeurs front-end, cela nous permet : 
