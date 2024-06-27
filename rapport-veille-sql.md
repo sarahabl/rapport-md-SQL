@@ -10,7 +10,7 @@ Ce rapport de veille vise à synthétiser les points clés à retenir sur SQL po
 2. **Base de données** : Ensemble structuré d'informations, organisé de manière à faciliter l'accès, la gestion et la mise à jour des données. Les bases de données sont utilisées par les organisations pour stocker, gérer et récupérer des informations cruciales.
 3. **Base de données relationnelle** : Un type de base de données qui organise les données en table. Chaque table, également appelée relation, contient des lignes (enregistrements) et des colonnes (champs). Les tables peuvent être reliées entre elles par des relations basées sur des clés.
 
-## Les caractéristiques d'une Base de Données relationnelle
+## Les caractéristiques d'une Base de Données Relationnelle
 - Tables : Les données sont organisées en tables, chaque table ayant des colonnes définies par un schéma (structure) fixe.
 - Schéma Rigide : La structure des tables est définie à l'avance par un schéma, ce qui impose une certaine rigidité mais assure la cohérence des données.
 - SQL (Structured Query Language) : Les bases de données relationnelles utilisent le langage SQL pour interroger et manipuler les données. SQL est un langage standardisé, ce qui le rend puissant et polyvalent.
