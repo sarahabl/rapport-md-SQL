@@ -35,14 +35,14 @@ SQL est utilisé dans une large variété de cas d'utilisation, notamment :
 - Extraction de données pour rapports et tableaux de bord
 - Analyse de données pour identifier des tendances et des modèles
 
-### Cas d'utilisation courants ###
+### Cas d'utilisation courants
 - E-commerce: gestion des produits, commandes et clients
 - CMS: stockage et récupération de contenu
 - Gestion de la relation client (CRM): suivi des interactions avec les clients
 - Applications de réseaux sociaux: gestion des profils, des publications et des interactions
 - Jeux en ligne: sauvegarde des données des joueurs et du jeu
 
-## Fonctionnalités clés de SQL##
+## Fonctionnalités clés de SQL
 - **Recherche et filtrage de données**: Localiser des informations spécifiques dans de grandes quantités de données.
 - **Tri et regroupement**: Organiser les données de manière significative pour une analyse plus facile.
 - **Agrégations**: Calculer des valeurs récapitulatives (somme, moyenne, etc.) pour obtenir une vue d'ensemble des données.
@@ -51,7 +51,7 @@ SQL est utilisé dans une large variété de cas d'utilisation, notamment :
 - **Contrôle des transactions**: Garantir l'intégrité des données lors des opérations simultanées.
 - **Sécurité des données**: Protéger les données contre les accès non autorisés et les modifications malveillantes. SQL permet de contrôler l'accès aux données et les actions des utilisateurs, limiter l'accès à des sous-ensembles de données sensibles, protéger les données en repos et en transi et d'éviter les injections SQL.
 
-### Requêtes SQL courantes ###
+### Requêtes SQL courantes
 - **SELECT**: Extraire des données d'une ou plusieurs tables.
 - **FROM**: Spécifier la table source des données.
 - **WHERE**: Filtrer les résultats en fonction de conditions spécifiques.
