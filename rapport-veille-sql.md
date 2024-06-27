@@ -27,7 +27,7 @@ En résumé :
 - **Les transactions** : Assurent que les séries d'opérations sont exécutées de manière atomique, cohérente, isolée et durable.
 - **L'intégrité des Données** : Garantis que les données sont correctes et cohérentes, en respectant des règles spécifiques aux entités, aux relations entre entités et aux valeurs des colonnes. Par exemple en interdisant les entrées orphelines dans les tables enfants.
 
-- ### Pourquoi utiliser une Base de Données Relationnelle ?
+### Pourquoi utiliser une Base de Données Relationnelle ?
 - Cohérence des Données : Les relations définies par des clés primaires et étrangères garantissent la cohérence et l'intégrité des données.
 - Sécurité et Transactions : Supporte les transactions ACID (Atomicité, Cohérence, Isolation, Durabilité) qui assurent que les opérations sont traitées de manière fiable.
 - Normalisation : Permet de minimiser la redondance et d'organiser les données de manière logique et efficace.
