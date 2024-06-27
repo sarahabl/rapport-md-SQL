@@ -11,23 +11,19 @@ Ce rapport de veille vise à synthétiser les points clés à retenir sur SQL po
 3. **Base de données relationnelle** : Un type de base de données qui organise les données en table. Chaque table, également appelée relation, contient des lignes (enregistrements) et des colonnes (champs). Les tables peuvent être reliées entre elles par des relations basées sur des clés.
 
 ## Les caractéristiques d'une base de donnée relationnelle
-1. Tables : Les données sont organisées en tables, chaque table ayant des colonnes définies par un schéma (structure) fixe.
-
-2. Schéma Rigide : La structure des tables est définie à l'avance par un schéma, ce qui impose une certaine rigidité mais assure la cohérence des données.
-
-3. SQL (Structured Query Language) : Les bases de données relationnelles utilisent le langage SQL pour interroger et manipuler les données. SQL est un langage standardisé, ce qui le rend puissant et polyvalent.
-
-4. Clés Primaires et Étrangères :
-  1. Clé Primaire : Un identifiant unique pour chaque enregistrement dans une table. 1
-  2. Clé Étrangère : Un champ qui crée un lien entre deux tables, établissant une relation entre les données.2
-
-5. Intégrité Référentielle : Les bases de données relationnelles assurent que les relations entre les tables restent cohérentes, par exemple en interdisant les entrées orphelines dans les tables enfants.
+- Tables : Les données sont organisées en tables, chaque table ayant des colonnes définies par un schéma (structure) fixe.
+- Schéma Rigide : La structure des tables est définie à l'avance par un schéma, ce qui impose une certaine rigidité mais assure la cohérence des données.
+- SQL (Structured Query Language) : Les bases de données relationnelles utilisent le langage SQL pour interroger et manipuler les données. SQL est un langage standardisé, ce qui le rend puissant et polyvalent.
+- Clés Primaires et Étrangères :
+  - Clé Primaire : Un identifiant unique pour chaque enregistrement dans une table. 1
+  - Clé Étrangère : Un champ qui crée un lien entre deux tables, établissant une relation entre les données.2
+- Intégrité Référentielle : Les bases de données relationnelles assurent que les relations entre les tables restent cohérentes, par exemple en interdisant les entrées orphelines dans les tables enfants.
 
 ## Pourquoi utiliser une Base de Données Relationnelle ?
-1. Cohérence des Données : Les relations définies par des clés primaires et étrangères garantissent la cohérence et l'intégrité des données.
-2. Sécurité et Transactions : Supporte les transactions ACID (Atomicité, Cohérence, Isolation, Durabilité) qui assurent que les opérations sont traitées de manière fiable.
-3. Normalisation : Permet de minimiser la redondance et d'organiser les données de manière logique et efficace.
-4. Langage Standardisé : L'utilisation de SQL permet une grande puissance et flexibilité pour les requêtes et les opérations sur les données.
+- Cohérence des Données : Les relations définies par des clés primaires et étrangères garantissent la cohérence et l'intégrité des données.
+- Sécurité et Transactions : Supporte les transactions ACID (Atomicité, Cohérence, Isolation, Durabilité) qui assurent que les opérations sont traitées de manière fiable.
+- Normalisation : Permet de minimiser la redondance et d'organiser les données de manière logique et efficace.
+- Langage Standardisé : L'utilisation de SQL permet une grande puissance et flexibilité pour les requêtes et les opérations sur les données.
 
 ## Concepts de base du SQL
 - **Bases de données relationnelles**: Elles stockent les données dans des tables structurées, reliées entre elles par des relations définies.
