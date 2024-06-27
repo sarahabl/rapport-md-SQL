@@ -85,14 +85,14 @@ SQL est utilisé dans une large variété de cas d'utilisation, notamment :
 - **GROUP BY**: Regrouper les résultats par une ou plusieurs colonnes.
 - **UPDATE**: Mettre à jour une donnée
 
-### Jointures
+#### Jointures
 Les jointures permettent de combiner des données de plusieurs tables :
 - **INNER JOIN** : Retourne les lignes correspondantes dans les deux tables
 - **LEFT JOIN** : Retourne toutes les lignes de la table de gauche et les lignes correspondantes de la table de droite
 - **RIGHT JOIN** : Retourne toutes les lignes de la table de droite et les lignes correspondantes de la table de gauche
 - **FULL OUTER JOIN** : Retourne toutes les lignes des deux tables
 
-### Agrégations
+#### Agrégations
 Les fonctions d'agrégation permettent de réaliser des calculs sur un ensemble de valeurs :
 - **COUNT()** : Compte le nombre de lignes
 - **SUM()** : Calcule la somme des valeurs
