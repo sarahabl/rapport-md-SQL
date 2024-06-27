@@ -105,12 +105,20 @@ Les fonctions d'agrégation permettent de réaliser des calculs sur un ensemble 
 - **Utilisez des jointures appropriées** et évitez les jointures inutiles.
 - **Analysez les plans d'exécution** pour identifier les goulots d'étranglement.
 
+## Alternatives à SQL
+
+### NoSQL
+- **MongoDB** : Base de données orientée documents.
+- **Cassandra** : Base de données orientée colonnes.
+- **Redis** : Base de données clé-valeur en mémoire.
+- **Neo4j** : Base de données orientée graphe.
+
+### Tendances Récentes
+- **SQL dans le Cloud** : Utilisation de services comme Amazon RDS, Google Cloud SQL.
+- **Big Data** : Intégration de SQL avec des technologies de big data comme Apache Hadoop et Spark.
+
 ## Conclusion
-SQL est un outil essentiel pour les développeurs front-end, cela nous permet : 
-- Comprendre le fonctionnement global des applications notamment l’architecture
-- Communiquer efficacement avec les développeurs et administrateurs de bases de données
-- Optimiser les requêtes de données
-- Travailler avec des API qui abstrait les détails de la base de données
+SQL reste un outil puissant et essentiel pour la gestion des bases de données relationnelles. Sa compréhension est cruciale pour les développeurs et les analystes de données, et son utilisation continue d'évoluer avec les nouvelles technologies et tendances.
 
 ### Ressources
 De nombreuses ressources en ligne sont disponibles pour approfondir os connaissances en SQL et devenir un développeur front-end accompli : 
