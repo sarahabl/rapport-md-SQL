@@ -19,7 +19,6 @@ Ce rapport de veille vise à synthétiser les points clés à retenir sur SQL po
 - Clés Primaires et Étrangères :
   - Clé Primaire : Un identifiant unique pour chaque enregistrement dans une table.
   - Clé Étrangère : Un champ qui crée un lien entre deux tables, établissant une relation entre les données.
-- Intégrité Référentielle : Les bases de données relationnelles assurent que les relations entre les tables restent cohérentes, par exemple en interdisant les entrées orphelines dans les tables enfants.
 
 ### Pourquoi utiliser une Base de Données Relationnelle ?
 - Cohérence des Données : Les relations définies par des clés primaires et étrangères garantissent la cohérence et l'intégrité des données.
@@ -32,7 +31,7 @@ Les transactions et l'intégrité des données sont des mécanismes essentiels p
 
 En résumé : 
 - **Les transactions** : Assurent que les séries d'opérations sont exécutées de manière atomique, cohérente, isolée et durable.
-- **L'ntégrité des Données** : Garantis que les données sont correctes et cohérentes, en respectant des règles spécifiques aux entités, aux relations entre entités et aux valeurs des colonnes.
+- **L'intégrité des Données** : Garantis que les données sont correctes et cohérentes, en respectant des règles spécifiques aux entités, aux relations entre entités et aux valeurs des colonnes. Par exemple en interdisant les entrées orphelines dans les tables enfants.
 
 ## Le rôle du langage SQL
 
