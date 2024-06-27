@@ -82,12 +82,9 @@ SQL est utilisé dans une large variété de cas d'utilisation, notamment :
 - **FROM**: Spécifier la table source des données.
 - **WHERE**: Filtrer les résultats en fonction de conditions spécifiques.
 - **ORDER BY**: Trier les résultats par une ou plusieurs colonnes.
-- **JOIN**: Combiner des données de plusieurs tables.
 - **GROUP BY**: Regrouper les résultats par une ou plusieurs colonnes.
 - **UPDATE**: Mettre à jour une donnée
-- **AGGREGATIONS**: Calculer des valeurs résumées (SUM, AVG, COUNT, MIN, MAX).
 
-## Jointures (JOIN) et Agrégations
 ### Jointures
 Les jointures permettent de combiner des données de plusieurs tables :
 - **INNER JOIN** : Retourne les lignes correspondantes dans les deux tables
@@ -114,7 +111,6 @@ SQL est un outil essentiel pour les développeurs front-end, cela nous permet :
 - Communiquer efficacement avec les développeurs et administrateurs de bases de données
 - Optimiser les requêtes de données
 - Travailler avec des API qui abstrait les détails de la base de données
-
 
 ### Ressources
 De nombreuses ressources en ligne sont disponibles pour approfondir os connaissances en SQL et devenir un développeur front-end accompli : 
