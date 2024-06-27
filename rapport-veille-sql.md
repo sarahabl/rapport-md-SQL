@@ -1,12 +1,84 @@
-# Rapport de projet
+# Rapport de veille SQL
 
-## Sujet :
-SQL et Bases de Données Relationnelles
+## Intro
+En tant que développeur front-end moderne, maîtriser SQL est devenu une **compétence essentielle** pour créer des applications web performantes, dynamiques et riches en données. SQL permet de **stocker**, **manipuler**, **récupérer et analyser des données** de manière efficace, en tirant parti de la puissance des **bases de données relationnelles**.
 
-## Introduction 
+Ce rapport de veille vise à synthétiser les points clés à retenir sur SQL pour les développeurs front-end.  Il couvrira les concepts de base, les requêtes courantes, les techniques d'optimisation, les aspects de sécurité, les cas d'utilisation courants, les alternatives à SQL et les bases de données populaires, afin de vous offrir une vue d'ensemble complète.
 
-## Corps du rapport 
+## Définitions
+1. **SQL** : Acronyme de Structured Query Language (Langage de Requête Structuré), est un langage standardisé utilisé pour gérer et manipuler les bases de données relationnelles. Il permet aux utilisateurs de créer, lire, mettre à jour et supprimer des données dans une base de données relationnelle.
+2. **Base de données** : Ensemble structuré d'informations, organisé de manière à faciliter l'accès, la gestion et la mise à jour des données. Les bases de données sont utilisées par les organisations pour stocker, gérer et récupérer des informations cruciales.
+3. **Base de données relationnelle** : Un type de base de données qui organise les données en table. Chaque table, également appelée relation, contient des lignes (enregistrements) et des colonnes (champs). Les tables peuvent être reliées entre elles par des relations basées sur des clés.
+
+## Concepts de base du SQL
+- **Bases de données relationnelles**: Elles stockent les données dans des tables structurées, reliées entre elles par des relations définies.
+- **Langage SQL**: Permet de créer, lire, mettre à jour et supprimer des données dans les bases de données relationnelles.
+- **Tables**: Composées de lignes (enregistrements) et de colonnes (champs), représentant des données organisées.
+- **Requêtes SQL**: Instructions permettant d'interagir avec les bases de données, comme SELECT, INSERT, UPDATE et DELETE.
+- **Clés primaires**: Identifient de manière unique chaque enregistrement dans une table.
+- **Clés étrangères**: Relient des tables entre elles, assurant l'intégrité référentielle.
+
+## Quand utilise-t-on SQL ?
+SQL est utilisé dans une large variété de cas d'utilisation, notamment :
+
+1. **Gestion de bases de données**:
+- Création et modification de structures de bases de données
+- Insertion, mise à jour, suppression et récupération de données
+- Administration des utilisateurs et des permissions
+
+2. **Développement d'applications**:
+- Backend d'applications web pour stocker et récupérer des données
+- Persistance des données dans les applications de bureau et mobiles (produits, stocks, transactions, etc.)
+- Synchronisation entre appareils et serveurs
+
+3. **Analyse et Reporting**:
+- Extraction de données pour rapports et tableaux de bord
+- Analyse de données pour identifier des tendances et des modèles
+
+### Cas d'utilisation courants ###
+- E-commerce: gestion des produits, commandes et clients
+- CMS: stockage et récupération de contenu
+- Gestion de la relation client (CRM): suivi des interactions avec les clients
+- Applications de réseaux sociaux: gestion des profils, des publications et des interactions
+- Jeux en ligne: sauvegarde des données des joueurs et du jeu
+
+## Fonctionnalités clés de SQL##
+- **Recherche et filtrage de données**: Localiser des informations spécifiques dans de grandes quantités de données.
+- **Tri et regroupement**: Organiser les données de manière significative pour une analyse plus facile.
+- **Agrégations**: Calculer des valeurs récapitulatives (somme, moyenne, etc.) pour obtenir une vue d'ensemble des données.
+- **Jointure de tables**: Combiner des données provenant de plusieurs tables pour obtenir une vue complète des relations.
+- **Modification de données**: Insérer, mettre à jour et supprimer des données de manière efficace.
+- **Contrôle des transactions**: Garantir l'intégrité des données lors des opérations simultanées.
+- **Sécurité des données**: Protéger les données contre les accès non autorisés et les modifications malveillantes. SQL permet de contrôler l'accès aux données et les actions des utilisateurs, limiter l'accès à des sous-ensembles de données sensibles, protéger les données en repos et en transi et d'éviter les injections SQL.
+
+### Requêtes SQL courantes ###
+- **SELECT**: Extraire des données d'une ou plusieurs tables.
+- **FROM**: Spécifier la table source des données.
+- **WHERE**: Filtrer les résultats en fonction de conditions spécifiques.
+- **ORDER BY**: Trier les résultats par une ou plusieurs colonnes.
+- **JOIN**: Combiner des données de plusieurs tables.
+- **GROUP BY**: Regrouper les résultats par une ou plusieurs colonnes.
+- **UPDATE**: Mettre à jour une donnée
+- **AGGREGATIONS**: Calculer des valeurs résumées (SUM, AVG, COUNT, MIN, MAX).
+
+## Techniques d'optimisation des requêtes SQL
+1. **Indexation**: Créer des index sur les colonnes fréquemment interrogées.
+2. **Utiliser des vues matérialisées**: Pré-calculer des requêtes complexes pour des performances accrues.
+3. **Analyser les requêtes**: Identifier les goulots d'étranglement et optimiser les requêtes en conséquence.
+4. **Choisir le bon type de jointure**: Sélectionner la jointure la plus adaptée à la requête.
+
 
 ## Conclusion
+SQL est un outil essentiel pour les développeurs front-end, cela nous permet : 
+- Comprendre le fonctionnement global des applications notamment l’architecture
+- Communiquer efficacement avec les développeurs et administrateurs de bases de données
+- Optimiser les requêtes de données
+- Travailler avec des API qui abstrait les détails de la base de données
 
-## Resources utilisées :
+
+## Ressources
+De nombreuses ressources en ligne sont disponibles pour approfondir os connaissances en SQL et devenir un développeur front-end accompli : 
+- https://www.data-bird.co/blog/langage-sql
+- https://aws.amazon.com/fr/what-is/sql/
+- https://sql.sh/cours/jointures
+- https://datascientest.com/index-sql-tout-savoir#:~:text=Le%20r%C3%B4le%20des%20index%20SQL,exploration%20rapide%20de%20la%20data.
