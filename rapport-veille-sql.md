@@ -5,7 +5,7 @@ En tant que développeur front-end moderne, maîtriser SQL est devenu une **comp
 
 Ce rapport de veille vise à synthétiser les points clés à retenir sur SQL pour les développeurs front-end.  Il couvrira les concepts de base, les requêtes courantes, les techniques d'optimisation, les aspects de sécurité, les cas d'utilisation courants, les alternatives à SQL et les bases de données populaires, afin de vous offrir une vue d'ensemble complète.
 
-## Définitions
+### Définitions
 1. **SQL** : Acronyme de Structured Query Language (Langage de Requête Structuré), est un langage standardisé utilisé pour gérer et manipuler les bases de données relationnelles. Il permet aux utilisateurs de créer, lire, mettre à jour et supprimer des données dans une base de données relationnelle.
 2. **Base de données** : Ensemble structuré d'informations, organisé de manière à faciliter l'accès, la gestion et la mise à jour des données. Les bases de données sont utilisées par les organisations pour stocker, gérer et récupérer des informations cruciales.
 3. **Base de données relationnelle** : Un type de base de données qui organise les données en table. Chaque table, également appelée relation, contient des lignes (enregistrements) et des colonnes (champs). Les tables peuvent être reliées entre elles par des relations basées sur des clés.
@@ -93,7 +93,7 @@ SQL est un outil essentiel pour les développeurs front-end, cela nous permet :
 - Travailler avec des API qui abstrait les détails de la base de données
 
 
-## Ressources
+### Ressources
 De nombreuses ressources en ligne sont disponibles pour approfondir os connaissances en SQL et devenir un développeur front-end accompli : 
 - https://www.data-bird.co/blog/langage-sql
 - https://aws.amazon.com/fr/what-is/sql/
