@@ -29,7 +29,7 @@ Ce rapport de veille vise à synthétiser les points clés à retenir sur SQL po
 
 ## Le rôle du langage SQL
 
-### Concepts de base du SQL
+### Concepts de base du SQL :
 - **Bases de données relationnelles**: Elles stockent les données dans des tables structurées, reliées entre elles par des relations définies.
 - **Langage SQL**: Permet de créer, lire, mettre à jour et supprimer des données dans les bases de données relationnelles.
 - **Tables**: Composées de lignes (enregistrements) et de colonnes (champs), représentant des données organisées.
@@ -52,14 +52,14 @@ SQL est utilisé dans une large variété de cas d'utilisation, notamment :
 - Extraction de données pour rapports et tableaux de bord
 - Analyse de données pour identifier des tendances et des modèles
 
-#### Cas d'utilisation courants
+#### Cas d'utilisation courants :
 - E-commerce: gestion des produits, commandes et clients
 - CMS: stockage et récupération de contenu
 - Gestion de la relation client (CRM): suivi des interactions avec les clients
 - Applications de réseaux sociaux: gestion des profils, des publications et des interactions
 - Jeux en ligne: sauvegarde des données des joueurs et du jeu
 
-#### Fonctionnalités clés de SQL
+#### Fonctionnalités clés de SQL :
 - **Recherche et filtrage de données**: Localiser des informations spécifiques dans de grandes quantités de données.
 - **Tri et regroupement**: Organiser les données de manière significative pour une analyse plus facile.
 - **Agrégations**: Calculer des valeurs récapitulatives (somme, moyenne, etc.) pour obtenir une vue d'ensemble des données.
