@@ -20,18 +20,18 @@ Ce rapport de veille vise à synthétiser les points clés à retenir sur SQL po
   - Clé Primaire : Un identifiant unique pour chaque enregistrement dans une table.
   - Clé Étrangère : Un champ qui crée un lien entre deux tables, établissant une relation entre les données.
 
-### Pourquoi utiliser une Base de Données Relationnelle ?
-- Cohérence des Données : Les relations définies par des clés primaires et étrangères garantissent la cohérence et l'intégrité des données.
-- Sécurité et Transactions : Supporte les transactions ACID (Atomicité, Cohérence, Isolation, Durabilité) qui assurent que les opérations sont traitées de manière fiable.
-- Normalisation : Permet de minimiser la redondance et d'organiser les données de manière logique et efficace.
-- Langage Standardisé : L'utilisation de SQL permet une grande puissance et flexibilité pour les requêtes et les opérations sur les données.
-
 ### Les transactions et intégrité des données
 Les transactions et l'intégrité des données sont des mécanismes essentiels pour maintenir la fiabilité, la cohérence et la robustesse des bases de données relationnelles. Ils permettent de s'assurer que toutes les opérations sont effectuées de manière sûre et que les données restent toujours précises et cohérentes.
 
 En résumé : 
 - **Les transactions** : Assurent que les séries d'opérations sont exécutées de manière atomique, cohérente, isolée et durable.
 - **L'intégrité des Données** : Garantis que les données sont correctes et cohérentes, en respectant des règles spécifiques aux entités, aux relations entre entités et aux valeurs des colonnes. Par exemple en interdisant les entrées orphelines dans les tables enfants.
+
+- ### Pourquoi utiliser une Base de Données Relationnelle ?
+- Cohérence des Données : Les relations définies par des clés primaires et étrangères garantissent la cohérence et l'intégrité des données.
+- Sécurité et Transactions : Supporte les transactions ACID (Atomicité, Cohérence, Isolation, Durabilité) qui assurent que les opérations sont traitées de manière fiable.
+- Normalisation : Permet de minimiser la redondance et d'organiser les données de manière logique et efficace.
+- Langage Standardisé : L'utilisation de SQL permet une grande puissance et flexibilité pour les requêtes et les opérations sur les données.
 
 ## Le rôle du langage SQL
 
