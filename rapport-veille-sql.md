@@ -27,6 +27,13 @@ Ce rapport de veille vise à synthétiser les points clés à retenir sur SQL po
 - Normalisation : Permet de minimiser la redondance et d'organiser les données de manière logique et efficace.
 - Langage Standardisé : L'utilisation de SQL permet une grande puissance et flexibilité pour les requêtes et les opérations sur les données.
 
+### Les Transactions et intégrité des données
+En résumé, les transactions et l'intégrité des données sont des mécanismes essentiels pour maintenir la fiabilité, la cohérence et la robustesse des bases de données relationnelles. Ils permettent de s'assurer que toutes les opérations sont effectuées de manière sûre et que les données restent toujours précises et cohérentes.
+
+En résumé : 
+- **Les transactions** : Assurent que les séries d'opérations sont exécutées de manière atomique, cohérente, isolée et durable.
+- **L'ntégrité des Données** : Garantis que les données sont correctes et cohérentes, en respectant des règles spécifiques aux entités, aux relations entre entités et aux valeurs des colonnes.
+
 ## Le rôle du langage SQL
 
 ### Concepts de base du SQL :
