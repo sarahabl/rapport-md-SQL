@@ -1,4 +1,4 @@
-# Rapport de veille SQL
+# SQL et Bases de Données Relationnelles
 
 ## Intro
 En tant que développeur front-end moderne, maîtriser SQL est devenu une **compétence essentielle** pour créer des applications web performantes, dynamiques et riches en données. SQL permet de **stocker**, **manipuler**, **récupérer et analyser des données** de manière efficace, en tirant parti de la puissance des **bases de données relationnelles**.
