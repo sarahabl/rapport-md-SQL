@@ -10,7 +10,9 @@ Ce rapport de veille vise à synthétiser les points clés à retenir sur SQL po
 2. **Base de données** : Ensemble structuré d'informations, organisé de manière à faciliter l'accès, la gestion et la mise à jour des données. Les bases de données sont utilisées par les organisations pour stocker, gérer et récupérer des informations cruciales.
 3. **Base de données relationnelle** : Un type de base de données qui organise les données en table. Chaque table, également appelée relation, contient des lignes (enregistrements) et des colonnes (champs). Les tables peuvent être reliées entre elles par des relations basées sur des clés.
 
-## Les caractéristiques d'une Base de Données Relationnelle
+## L’importance des Bases de Données Relationnelles
+
+### Les caractéristiques d'une Base de Données Relationnelle
 - Tables : Les données sont organisées en tables, chaque table ayant des colonnes définies par un schéma (structure) fixe.
 - Schéma Rigide : La structure des tables est définie à l'avance par un schéma, ce qui impose une certaine rigidité mais assure la cohérence des données.
 - SQL (Structured Query Language) : Les bases de données relationnelles utilisent le langage SQL pour interroger et manipuler les données. SQL est un langage standardisé, ce qui le rend puissant et polyvalent.
@@ -19,19 +21,21 @@ Ce rapport de veille vise à synthétiser les points clés à retenir sur SQL po
   - Clé Étrangère : Un champ qui crée un lien entre deux tables, établissant une relation entre les données.
 - Intégrité Référentielle : Les bases de données relationnelles assurent que les relations entre les tables restent cohérentes, par exemple en interdisant les entrées orphelines dans les tables enfants.
 
-## Pourquoi utiliser une Base de Données Relationnelle ?
+### Pourquoi utiliser une Base de Données Relationnelle ?
 - Cohérence des Données : Les relations définies par des clés primaires et étrangères garantissent la cohérence et l'intégrité des données.
 - Sécurité et Transactions : Supporte les transactions ACID (Atomicité, Cohérence, Isolation, Durabilité) qui assurent que les opérations sont traitées de manière fiable.
 - Normalisation : Permet de minimiser la redondance et d'organiser les données de manière logique et efficace.
 - Langage Standardisé : L'utilisation de SQL permet une grande puissance et flexibilité pour les requêtes et les opérations sur les données.
 
-## Concepts de base du SQL
+## Le rôle du langage SQL
+
+### Concepts de base du SQL
 - **Bases de données relationnelles**: Elles stockent les données dans des tables structurées, reliées entre elles par des relations définies.
 - **Langage SQL**: Permet de créer, lire, mettre à jour et supprimer des données dans les bases de données relationnelles.
 - **Tables**: Composées de lignes (enregistrements) et de colonnes (champs), représentant des données organisées.
 - **Requêtes SQL**: Instructions permettant d'interagir avec les bases de données, comme SELECT, INSERT, UPDATE et DELETE.
 
-## Quand utilise-t-on SQL ?
+### Quand utilise-t-on SQL ?
 SQL est utilisé dans une large variété de cas d'utilisation, notamment :
 
 1. **Gestion de bases de données**:
@@ -48,14 +52,14 @@ SQL est utilisé dans une large variété de cas d'utilisation, notamment :
 - Extraction de données pour rapports et tableaux de bord
 - Analyse de données pour identifier des tendances et des modèles
 
-### Cas d'utilisation courants
+#### Cas d'utilisation courants
 - E-commerce: gestion des produits, commandes et clients
 - CMS: stockage et récupération de contenu
 - Gestion de la relation client (CRM): suivi des interactions avec les clients
 - Applications de réseaux sociaux: gestion des profils, des publications et des interactions
 - Jeux en ligne: sauvegarde des données des joueurs et du jeu
 
-## Fonctionnalités clés de SQL
+#### Fonctionnalités clés de SQL
 - **Recherche et filtrage de données**: Localiser des informations spécifiques dans de grandes quantités de données.
 - **Tri et regroupement**: Organiser les données de manière significative pour une analyse plus facile.
 - **Agrégations**: Calculer des valeurs récapitulatives (somme, moyenne, etc.) pour obtenir une vue d'ensemble des données.
@@ -74,7 +78,7 @@ SQL est utilisé dans une large variété de cas d'utilisation, notamment :
 - **UPDATE**: Mettre à jour une donnée
 - **AGGREGATIONS**: Calculer des valeurs résumées (SUM, AVG, COUNT, MIN, MAX).
 
-## Techniques d'optimisation des requêtes SQL
+### Techniques d'optimisation des requêtes SQL
 1. **Indexation**: Créer des index sur les colonnes fréquemment interrogées.
 2. **Utiliser des vues matérialisées**: Pré-calculer des requêtes complexes pour des performances accrues.
 3. **Analyser les requêtes**: Identifier les goulots d'étranglement et optimiser les requêtes en conséquence.
