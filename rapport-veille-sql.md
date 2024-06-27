@@ -101,7 +101,7 @@ Les fonctions d'agrégation permettent de réaliser des calculs sur un ensemble 
 
 ### Techniques d'optimisation des requêtes SQL
 - **Utilisez des index** sur les colonnes fréquemment recherchées.
-- **Évitez SELECT *** : Spécifiez uniquement les colonnes nécessaires.
+- **Évitez SELECT** : Spécifiez uniquement les colonnes nécessaires.
 - **Utilisez des jointures appropriées** et évitez les jointures inutiles.
 - **Analysez les plans d'exécution** pour identifier les goulots d'étranglement.
 
