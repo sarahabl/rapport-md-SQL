@@ -28,7 +28,7 @@ Ce rapport de veille vise à synthétiser les points clés à retenir sur SQL po
 - Langage Standardisé : L'utilisation de SQL permet une grande puissance et flexibilité pour les requêtes et les opérations sur les données.
 
 ### Les Transactions et intégrité des données
-En résumé, les transactions et l'intégrité des données sont des mécanismes essentiels pour maintenir la fiabilité, la cohérence et la robustesse des bases de données relationnelles. Ils permettent de s'assurer que toutes les opérations sont effectuées de manière sûre et que les données restent toujours précises et cohérentes.
+Les transactions et l'intégrité des données sont des mécanismes essentiels pour maintenir la fiabilité, la cohérence et la robustesse des bases de données relationnelles. Ils permettent de s'assurer que toutes les opérations sont effectuées de manière sûre et que les données restent toujours précises et cohérentes.
 
 En résumé : 
 - **Les transactions** : Assurent que les séries d'opérations sont exécutées de manière atomique, cohérente, isolée et durable.
