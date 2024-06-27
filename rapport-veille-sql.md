@@ -33,9 +33,12 @@ En résumé :
 - Normalisation : Permet de minimiser la redondance et d'organiser les données de manière logique et efficace.
 - Langage Standardisé : L'utilisation de SQL permet une grande puissance et flexibilité pour les requêtes et les opérations sur les données.
 
-## Le rôle du langage SQL
+## Le SQL
 
-### Concepts de base du SQL :
+### L'histoire de SQL
+SQL a été développé dans les années 1970 par IBM et est devenu un standard de l'ANSI en 1986. Depuis, il a évolué pour inclure de nombreuses fonctionnalités avancées.
+
+### Concepts de base de SQL :
 - **Bases de données relationnelles**: Elles stockent les données dans des tables structurées, reliées entre elles par des relations définies.
 - **Langage SQL**: Permet de créer, lire, mettre à jour et supprimer des données dans les bases de données relationnelles.
 - **Tables**: Composées de lignes (enregistrements) et de colonnes (champs), représentant des données organisées.
