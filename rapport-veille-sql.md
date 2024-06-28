@@ -121,7 +121,7 @@ Les fonctions d'agrégation permettent de réaliser des calculs sur un ensemble 
 SQL reste un outil puissant et essentiel pour la gestion des bases de données relationnelles. Sa compréhension est cruciale pour les développeurs et les analystes de données, et son utilisation continue d'évoluer avec les nouvelles technologies et tendances.
 
 ### Ressources
-De nombreuses ressources en ligne sont disponibles pour approfondir os connaissances en SQL et devenir un développeur front-end accompli : 
+De nombreuses ressources en ligne sont disponibles pour approfondir nos connaissances en SQL: 
 - https://www.data-bird.co/blog/langage-sql
 - https://aws.amazon.com/fr/what-is/sql/
 - https://sql.sh/cours/jointures
